@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IntervIO AI — Live FAANG & Technical Mock Interview Platform</title>
+  <meta name="description" content="AI-Powered Technical, System Design & STAR Behavioral Mock Interview Studio with Live Avatars, Voice STT/TTS, Code Execution & Hiring Analytics." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Google Fonts: Outfit, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/variables.css" />
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/studio.css" />
+  <link rel="stylesheet" href="/css/code-editor.css" />
+  <link rel="stylesheet" href="/css/whiteboard.css" />
+  <link rel="stylesheet" href="/css/report.css" />
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Top Navigation Bar -->
+    <header>
+      <nav class="navbar" aria-label="Main Navigation">
+        <div class="nav-brand" id="nav-brand-btn">
+          <div class="brand-icon">⚡</div>
+          <span>Interv<span style="color: var(--accent-cyan);">IO</span> <span style="font-size: 0.75rem; font-weight: 700; padding: 2px 6px; background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.4); border-radius: 4px; color: var(--primary-light); margin-left: 4px;">AI</span></span>
+        </div>
+
+        <ul class="nav-links">
+          <li><span class="nav-link active" data-view="landing">Home</span></li>
+          <li><span class="nav-link" data-view="setup">Mock Interview</span></li>
+          <li><span class="nav-link" data-view="questions">Question Bank</span></li>
+          <li><span class="nav-link" data-view="resume-checker">Resume ATS</span></li>
+          <li><span class="nav-link" data-view="history">My History</span></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="btn btn-primary btn-sm" id="btn-nav-start">
+            🎙️ Start Interview
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main View Dynamic Container -->
+    <main id="app-view-container" class="main-view" role="main">
+      <!-- Injected dynamically by app.js -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: gap; gap: 1rem;">
+        <div>
+          © 2026 <strong>IntervIO AI Platform</strong> • Built with Spring Boot & Modern Web Audio / Speech APIs.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#questions">Question Bank (150+)</a>
+          <a href="#resume-checker">ATS Scanner</a>
+          <a href="#setup">Configure Interview</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Main JavaScript App Entry Point -->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
